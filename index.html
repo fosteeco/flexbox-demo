@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💪 Flexbox Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>💪 Flexbox Demo</h1>
+      </header>
+      <div class="buttons">
+        <button id="add-box">Add Box</button>
+        <button id="add-text-box">Add Text Box</button>
+      </div>
+      <div class="inputs">
+        <div class="input-wrap">
+          <label for="align-items-select">Change align-items value: </label>
+          <select name="align-items-select" id="align-items-select">
+            <option value="flex-start">flex-start</option>
+            <option value="stretch">stretch</option>
+            <option value="flex-end">flex-end</option>
+            <option value="center">center</option>
+          </select>
+        </div>
+        <div class="input-wrap">
+          <label for="justify-content-select"
+            >Change justify-content value:
+          </label>
+          <select name="justify-content-select" id="justify-content-select">
+            <option value="flex-start">flex-start</option>
+            <option value="flex-end">flex-end</option>
+            <option value="center">center</option>
+            <option value="space-around">space-around</option>
+            <option value="space-between">space-between</option>
+            <option value="space-evenly">space-evenly</option>
+          </select>
+        </div>
+        <div class="input-wrap">
+          <label for="flex-direction-select"
+            >Change flex-direction value:
+          </label>
+          <select name="flex-direction-select" id="flex-direction-select">
+            <option value="row">row</option>
+            <option value="row-reverse">row-reverse</option>
+            <option value="column">column</option>
+            <option value="column-reverse">column-reverse</option>
+          </select>
+        </div>
+        <div class="input-wrap">
+          <label for="flex-wrap-select">Change flex-wrap value: </label>
+          <select name="flex-wrap-select" id="flex-wrap-select">
+            <option value="nowrap">nowrap</option>
+            <option value="wrap">wrap</option>
+            <option value="wrap-reverse">wrap-reverse</option>
+          </select>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="reset">Reset</button>
+        <button id="remove-divs">Remove Divs</button>
+      </div>
+      <div class="flexbox-container"></div>
+    </div>
+  </body>
+</html>
