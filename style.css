@@ -110,3 +110,22 @@ button:active {
 button:hover {
   box-shadow: 0 0 5px #000;
 }
+
+.footer-links {
+  list-style-type: none;
+}
+
+.footer-links li {
+  font-size: 2rem;
+}
+
+.footer-links i {
+  font-size: 3rem;
+}
+
+i.fa-youtube {
+  color: red;
+}
+i.fa-github {
+  color: black;
+}
